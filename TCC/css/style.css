@@ -1,0 +1,55 @@
+/*
+    Estilizando o header
+*/
+.header{
+    background: #162E47;
+}
+
+.nav-item .nav-link{
+    font-weight: bold;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* 
+    Estilizando o main
+*/
+
+
+/*
+    Banner Principal
+*/
+#banner{
+    margin-top: 10px;
+    align-content: center;
+}
+#banner-principal{
+   width: 600px;
+   height: 400px;
+   background: #206494;
+   float: left;
+}
+
+
+.titulo-banner-principal{
+    font-weight: bold;
+    color: white;
+    font-size: 23px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+/*
+    Sub banner
+*/
+
+
+.sub-imagens{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.sub-titulo{
+    display: inline-block;
+}
