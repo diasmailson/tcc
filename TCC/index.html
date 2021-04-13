@@ -1,100 +1,192 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pagina Bootstrap</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
 
 
-        <header class="header"> <!--Inicio header-->
+    <header class="header">
+        <!--Inicio header-->
 
-            
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                       
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/todas-noticias.html" style="color: white;">TODAS AS NOTÍCIAS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/economia-covid.html" style="color: white;">ECONOMIA X COVID19</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/entrevistas.html" style="color: white;">ENTREVISTAS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/fale-conosco.html" style="color: white;">FALE CONOSCO</a>
-                            </li>
-                        </ul>
-                        
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-                        </form>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                style="color: white;">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/todas-noticias.html" style="color: white;">TODAS AS
+                                NOTÍCIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/economia-covid.html" style="color: white;">ECONOMIA X
+                                COVID19</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/entrevistas.html" style="color: white;">ENTREVISTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/fale-conosco.html" style="color: white;">FALE
+                                CONOSCO</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Fim header-->
+    </div>
+
+    <main>
+        <!-- Inicio Banner  -->
+        <!--CARDS-->
+        <!--Card#1  - Principal-->
+        <div class="container">
+            <div class="row row-cols-md-6 g-5 gap-0">
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="/img/calculator.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Conflitos Financeiros</h5>
+                            <p class="card-text">Aprenda como lidar com problemas financeiros na crise.</p>
+                            <a href="#"></a>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </header> <!--Fim header-->
 
-
-        <main>
-
-            <!-- Inicio Banner  -->
-           <section id="banner">
-                <div id="banner-principal">
-                    <img src="img/calculator.png" class="img-fluid" alt="Dicas financeiras">
-                    <p class="titulo-banner-principal">Como lidar com conflitos financeiros na crise</p>
-                </div>
-
-                    <div id="banner-secundario">
-                        <div class="sub-banner">
-                            <img src="img/economia.png" alt="economia" class="sub-imagens">
-                            <p class="sub-titulo">Dicas de como economizar em casa</p>
-                        </div>
-
-                        <div class="sub-banner">
-                            <img src="img/promocao.png" alt="promoção" class="sub-imagens">
-                            <p class="sub-titulo">Como não cair nas armadilhas das liquidações.</p>
-                        </div>
-
-
-                        <div class="sub-banner" class="sub-imagens">
-                            <p class="sub-titulo">Preço do Diesel volta a subir</p>
-                        </div>
-
-                        <div class="sub-banner" class="sub-imagens">
-                            <p class="sub-titulo">Preço do Diesel volta a subir</p>
+                <!--CARD#2-->
+                <div class="container col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="/img/calculatorLista.jpg" alt="calculadora">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-            </section>
-            <!--Fim Banner -->
+
+                    <!--CARD#3-->
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="/img/calculatorLista.jpg" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--//CARD#3-->
+                </div>
+                <!--//CARD#2-->
+            </div>
+        </div>
+        <!--Fim Banner -->
 
 
-           
+        <!--CARD HOME GROUP-->
+        <div class="container mt-5 flex-column">
+            <div class="card-group">
+                <div class="card">
+                    <img src="img/Gustavo-Cerbasi.jpg" class="card-img-top" alt="card finanças">
+                    <div class="card-body">
+                        <h5 class="card-title">Dica dos ícones da Economia</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn stretched-link"></a>
+                        <div class="rounded-pills">
+                            <span class="badge bg-success">Success</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/taxa.png" class="card-img-top" alt="card finanças">
+                    <div class="card-body">
+                        <h5 class="card-title">Bancos com menores juros</h5>
+                        <p class="card-text">This is a wider card.</p>
+                        <a href="#" class="btn stretched-link"></a>
+                        <div class="rounded-pills">
+                            <span class="badge bg-success">Success</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/planilha-de-excel.jpg" class="card-img-top" alt="card finanças">
+                    <div class="card-body">
+                        <h5 class="card-title">Planilhas Diversas</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn stretched-link"></a>
+                        <div class="rounded-pills">
+                            <span class="badge bg-success">Planilha</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/cursos-de-financas.png" class="card-img-top" alt="card finanças">
+                    <div class="card-body">
+                        <h5 class="card-title">Cursos Gratuitos de Finanças</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn stretched-link"></a>
+                        <div class="rounded-pills">
+                            <span class="badge bg-success">Success</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--//CARD HOME GROUP-->
 
-         
-            
 
-        </main>
+    </main>
 
-        <footer>
-        </footer>    
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <footer>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
 
 </html>
