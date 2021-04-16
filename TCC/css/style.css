@@ -54,3 +54,30 @@ body{
 .sub-titulo{
     display: inline-block;
 }
+
+
+/*
+   Estilizando Rodape 
+*/
+.rodape{
+    margin-top: 100px;
+    
+    width: 100%;
+    background: #162E47;
+}
+
+.titulo-grid-radape{
+    color: white;
+    margin-top: 5px;
+}
+.sub-titulo{
+    color: white;
+    
+}
+/*
+    Estilizando formulario
+*/
+
+.formulario{
+    margin-top: 50px;
+}
