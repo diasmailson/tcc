@@ -65,7 +65,7 @@
                                 <div class="input-group mb-3">
                                     <span class="input-group-text">Aporte Inicial</span>
                                     <span class="input-group-text">R$</span>
-                                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" name="aporteInicial" required>
+                                    <input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" name="aporteInicial" required>
                                 </div>
                             </div>
 
@@ -74,7 +74,7 @@
                                     
                                     <span class="input-group-text">Aportes Mensais</span>
                                     <span class="input-group-text">R$</span>
-                                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" name="aporteMensal">
+                                    <input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" name="aporteMensal" required>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="input-group mb-3">
-                                        <input type="text" class="form-control" aria-label="Text input with dropdown button" name="juros">
+                                        <input type="number" class="form-control" aria-label="Text input with dropdown button" name="juros" required>
                                         <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">% de Juros</button>
                                         <ul class="dropdown-menu dropdown-menu-end">
                                             <li><a class="dropdown-item" id="juros-anual">Anual</a></li>
@@ -95,7 +95,7 @@
                             
                                 <div class="col">
                                     <div class="input-group mb-3">
-                                        <input type="text" class="form-control" aria-label="Text input with dropdown button" name="tempo">
+                                        <input type="number" class="form-control" aria-label="Text input with dropdown button" name="tempo" required>
                                         <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tempo</button>
                                         <ul class="dropdown-menu dropdown-menu-end">
                                             <li><a class="dropdown-item" id="tempoMeses">Meses</a></li>
