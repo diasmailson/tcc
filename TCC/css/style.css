@@ -1,7 +1,7 @@
 /*
     Estilizando o header
 */
-body{
+body,header,body{
     font-family: 'Open Sans', sans-serif;
 }
 .header{
@@ -13,9 +13,14 @@ body{
     color: white;
 }
 
+.alto-contraste{
+    margin-right: 10px;
+}
+
 /* 
     Estilizando o main
 */
+
 
 
 /*
@@ -80,4 +85,8 @@ body{
 
 .formulario{
     margin-top: 50px;
+}
+.fundo-preto-branco{
+    background: black;
+    color: blue;
 }
