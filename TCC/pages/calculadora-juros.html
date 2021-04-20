@@ -56,7 +56,7 @@
 
         <main>
 
-            <div> <!--Calculadora-->
+            <form action=""> <!--Calculadora-->
                 <h1 class="text-center fs-2">Calculadora de Juros Compostos</h1>
                 <div class="container">
                     <div class="row">
@@ -85,8 +85,8 @@
                                     <input type="text" class="form-control" aria-label="Text input with dropdown button">
                                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">% de Juros</button>
                                     <ul class="dropdown-menu dropdown-menu-end">
-                                        <li><a class="dropdown-item" href="#">Anual</a></li>
-                                        <li><a class="dropdown-item" href="#">Mensal</a></li>
+                                        <li><a class="dropdown-item">Anual</a></li>
+                                        <li><a class="dropdown-item">Mensal</a></li>
                                         
                                     </ul>
                                 </div>
@@ -97,8 +97,8 @@
                                     <input type="text" class="form-control" aria-label="Text input with dropdown button">
                                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tempo</button>
                                     <ul class="dropdown-menu dropdown-menu-end">
-                                        <li><a class="dropdown-item" href="#">Meses</a></li>
-                                        <li><a class="dropdown-item" href="#">Anos</a></li>
+                                        <li><a class="dropdown-item">Meses</a></li>
+                                        <li><a class="dropdown-item">Anos</a></li>
                                     
                                     </ul>
                                 </div>
@@ -106,8 +106,8 @@
                         </div>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-outline-secondary ">Calcular</button>
-            </div> <!--Fim Calculadora-->
+                <button type="submit" class="btn btn-outline-secondary " id="calcular">Calcular</button>
+            </form> <!--Fim Calculadora-->
 
 
         
@@ -162,6 +162,7 @@
 
 
     </body>
+    <script src="../js/calculadora-juros-compostos.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
