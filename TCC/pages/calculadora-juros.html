@@ -56,58 +56,60 @@
 
         <main>
 
-            <form action=""> <!--Calculadora-->
+            <section> <!--Calculadora-->
                 <h1 class="text-center fs-2">Calculadora de Juros Compostos</h1>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text">Aporte Inicial</span>
-                                <span class="input-group-text">R$</span>
-                                <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" required>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="input-group">            
-                                
-                                <span class="input-group-text">Aportes Mensais</span>
-                                <span class="input-group-text">R$</span>
-                                <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
-                            </div>
-                        </div>
-                    </div>
-
+                <form id="info-calculo">
                     <div class="container">
                         <div class="row">
                             <div class="col">
                                 <div class="input-group mb-3">
-                                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
-                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">% de Juros</button>
-                                    <ul class="dropdown-menu dropdown-menu-end">
-                                        <li><a class="dropdown-item">Anual</a></li>
-                                        <li><a class="dropdown-item">Mensal</a></li>
-                                        
-                                    </ul>
+                                    <span class="input-group-text">Aporte Inicial</span>
+                                    <span class="input-group-text">R$</span>
+                                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" name="aporteInicial" required>
                                 </div>
                             </div>
-                        
+
                             <div class="col">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
-                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tempo</button>
-                                    <ul class="dropdown-menu dropdown-menu-end">
-                                        <li><a class="dropdown-item">Meses</a></li>
-                                        <li><a class="dropdown-item">Anos</a></li>
+                                <div class="input-group">            
                                     
-                                    </ul>
+                                    <span class="input-group-text">Aportes Mensais</span>
+                                    <span class="input-group-text">R$</span>
+                                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" name="aporteMensal">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" aria-label="Text input with dropdown button" name="juros">
+                                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">% de Juros</button>
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li><a class="dropdown-item" id="juros-anual">Anual</a></li>
+                                            <li><a class="dropdown-item" id="juros-mensal">Mensal</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            
+                                <div class="col">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" aria-label="Text input with dropdown button" name="tempo">
+                                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tempo</button>
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li><a class="dropdown-item" id="tempoMeses">Meses</a></li>
+                                            <li><a class="dropdown-item" id="tempoAnual">Anos</a></li>
+                                        
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </form>
                 <button type="submit" class="btn btn-outline-secondary " id="calcular">Calcular</button>
-            </form> <!--Fim Calculadora-->
+            </section> <!--Fim Calculadora-->
 
 
         
