@@ -12,30 +12,60 @@ function calcular(event){
     let form = document.querySelector("#info-calculo");
 
     // Pegando o valor dos inputs de "aporte inicial", "aporte mensal", "juros", "tempo"
-    let aporteInicial = form.aporteInicial.value;
-    let aporteMensal = form.aporteMensal.value;
+    let valueAporteInicial = form.aporteInicial.value;
+    let valueAporteMensal = form.aporteMensal.value;
     let juros = form.juros.value;
-    let tempo = form.tempo.value
+    let tempo = form.tempo.value;
+
+    //Convertendo "aporte inicial" e "aporte mensal" de string para number
+    let aporteInicial = parseInt(valueAporteInicial);
+    let aporteMensal = parseInt(valueAporteMensal);
+
+    // Pegando a "selection" do campo de "% de juros"
+    let selectionOpTempoPorcent = document.querySelector("#op-juros");
+    let opJuros = selectionOpTempoPorcent.options[selectionOpTempoPorcent.selectedIndex].value;
+
+
+    // Pegando a "selection" do campo de "Tempo"
+    let selectionOpTempo = document.querySelector("#op-tempo");
+    let opTempo = selectionOpTempo.options[selectionOpTempo.selectedIndex].value;
+    
+    let capitalAcumulado = aporteInicial + aporteMensal;
+    let jurosCompostos = 0;
 
 
 
-    // Pegando as "li" do campo de "% de juros"
-    let liJurosAnual = document.querySelector("#juros-anual");
-    let liJurosMensal = document.querySelector("#juros-mensal");
 
-    //Pegando as "li" do campo de "tempo"
-    let liTempoMes = document.querySelector("#tempoMeses");
-    let liTempoAno = document.querySelector("#tempoAnual")
+
+
+    /*
+    if (opJuros == "mensal" && opTempo == "mensal"){
+       jurosCompostos = capitalAcumulado +
+    }
+
+    else if (opJuros == "mensal" && opTempo == "anual"){
+       console.log("mensal e anual");
+    }
+
+    else if (opJuros == "anual" && opTempo == "anual"){
+       console.log("anual e anual");
+    }
+
+    else if (opJuros == "anual" && opTempo == "mensal"){
+       console.log("anual e mensal");
+    }*/
+   
 
     
-    
-    // Recebendo o conteudo das li
-    let tempoMes = liTempoMes.textContent;
-    let tempoAno = liTempoAno.textContent;
 
-    // Recebendo os conteudos das "li"
-    let jurosAnual = liJurosAnual.textContent;
-    let jurosMensal = liJurosMensal.textContent;
+    
+
+    
+
+
+
+
+
 
     
     
