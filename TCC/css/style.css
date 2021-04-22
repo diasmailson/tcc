@@ -91,3 +91,9 @@ body,header,body{
     background: black;
     color: blue;
 }
+/*
+    Estilizando calculadora
+*/
+.calculadora{
+    margin-top: 200px;
+}

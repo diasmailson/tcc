@@ -56,7 +56,7 @@
 
         <main>
 
-            <section> <!--Calculadora-->
+            <section class="calculadora"> <!--Calculadora-->
                 <h1 class="text-center fs-2">Calculadora de Juros Compostos</h1>
                 <form id="info-calculo">
                     <div class="container">
@@ -74,7 +74,7 @@
                                     
                                     <span class="input-group-text">Aportes Mensais</span>
                                     <span class="input-group-text">R$</span>
-                                    <input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" name="aporteMensal" required>
+                                    <input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" name="aporteMensal">
                                 </div>
                             </div>
                         </div>
@@ -84,25 +84,14 @@
                                 <div class="col">
                                     <div class="input-group mb-3">
                                         <input type="number" class="form-control w-50" aria-label="Text input with dropdown button" name="juros" id="juros" required>
-
-                                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="op-juros">
-                                            <option selected>% de Juros</option>
-                                            <option value="mensal">Mensal</option>
-                                            <option value="anual">Anual</option>
-                                        </select>
-
+                                        <span class="input-group-text">Taxa de Juros</span>
                                     </div>
                                 </div>
                             
                                 <div class="col">
                                     <div class="input-group mb-3">
                                         <input type="number" class="form-control w-50" aria-label="Text input with dropdown button" name="tempo" required>
-
-                                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="op-tempo">
-                                            <option selected>Tempo</option>
-                                            <option value="mensal">Mensal</option>
-                                            <option value="anual">Anual</option>
-                                        </select>
+                                        <span class="input-group-text">Tempo em meses</span>
                                         
                                         </ul>
                                     </div>
@@ -111,7 +100,13 @@
                         </div>
                     </div>
                 </form>
-                <button type="submit" class="btn btn-outline-secondary " id="calcular">Calcular</button>
+                 
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary w-25" ttype="submit" id="calcular">Enviar</button>    
+                </div> 
+                
+
+
             </section> <!--Fim Calculadora-->
 
 
