@@ -17,30 +17,47 @@ function calcular(event){
     let valueAporteMensal = form.aporteMensal.value;
     let valueJuros = form.juros.value;
     let valueTempo = form.tempo.value;
+    
    
 
     //Convertendo "aporte inicial", "aporte mensal", "% de juros" e "Tempo" de string para number
     let aporteInicial = parseFloat(valueAporteInicial);
     let aporteMensal = parseFloat(valueAporteMensal);
-    let juros = parseInt(valueJuros);
+    let juros = parseFloat(valueJuros);
     let tempo = parseInt(valueTempo);
+
 
     // Transformando o int em porcentagem
     juros = juros/100;
 
-    let acumulado = aporteInicial;
-    let jurosCompostos = 0;
-    
+
+    let acumulado = aporteInicial;  
+
+    let jurosCompostos = 0; 
+   
+
     //Calculando Juros CompostosaporteInicial
     for (let i =0; i<tempo; i++){
+
         jurosCompostos = acumulado*juros;
-        
-        acumulado += jurosCompostos
-        acumulado+=aporteMensal;
+        acumulado = acumulado + jurosCompostos
+        acumulado= acumulado + aporteMensal;  
         
     }
-    console.log(acumulado);
+
+    let mostrarResultado = document.querySelector(".mostrarResultado");
+    mostrarResultado.textContent = "R$ " + acumulado;
     
+ 
+    
+    // Formula Juros compostos: M = C * ((1 + i) ^ t)
+    /*
+     *  M = Montante
+        C = Capital
+        I = Taxa de Juros (em porcentagem)
+        T = tempo 
+     * 
+     */
 
   
 
