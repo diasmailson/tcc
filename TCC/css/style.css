@@ -9,6 +9,35 @@ body,header,body{
     background: #162E47;
 }
 
+
+.menu ul li {
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 6px;
+    height: 30px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+    
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.menu {
+width: 70%;
+float: left;
+}
+
+
 .nav-item .nav-link{
     font-weight: bold;
     color: white;
