@@ -126,3 +126,29 @@ float: left;
 .calculadora{
     margin-top: 200px;
 }
+
+
+/*
+    Estilizando Todas Noticias
+*/
+
+
+.box {
+    transition: box-shadow .3s;
+    width: 700px;
+    height: 150px;
+    margin: 50px;
+    border-radius:20px;
+    background: #fff;
+    float: center;
+    
+  }
+  .box:hover {
+    box-shadow: 0 0 20px rgba(80, 79, 79, 0.2); 
+  }
+ .box a {
+    color: #11694c;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
