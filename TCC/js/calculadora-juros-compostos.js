@@ -40,7 +40,7 @@ function calcular(event){
     for (let i =0; i<tempo; i++){
 
         jurosCompostos = acumulado*juros;
-        acumulado = acumulado + jurosCompostos
+        acumulado = acumulado + jurosCompostos;
         acumulado= acumulado + aporteMensal;  
         
     }
