@@ -3,11 +3,11 @@ var botao = document.querySelector("#calcular");
 //Adicionando um escutador de eventos, para manipular o formulario 
 botao.addEventListener("click",calcular)
 
-function calcular(event){
+function calcular(evento){
 
 
     // Desativando o comportamento padrão do botão, para não atualizar a pagina
-    event.preventDefault();
+    evento.preventDefault();
 
     //Recebendo a tebala, para pegar os valores dos inputs
     let form = document.querySelector("#info-calculo");
