@@ -52,11 +52,12 @@ function calcular(evento){
     
     // Formula Juros compostos: M = C * ((1 + i) ^ t)
     /*
-     *  M = Montante
+
+        M = Montante
         C = Capital
         I = Taxa de Juros (em porcentagem)
-        T = tempo 
-     * 
+        T = tempo  
+        
      */
 
   
