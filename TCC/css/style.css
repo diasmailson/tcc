@@ -2,14 +2,12 @@
     Estilizando o header
 */
 
-body,header,body{
-    font-family: 'Open Sans', sans-serif;
-    
+body,header{
+    font-family: 'Montserrat', sans-serif;  
 }
+
 .header{
    background: #162E47;
-
-    
 }
 
 .menu ul li {
@@ -43,7 +41,7 @@ body,header,body{
 
 
 .nav-link{
-    font-weight: bold;
+    font-weight: 600;
     color: white;  
 }
 
@@ -175,6 +173,61 @@ border: 1px solid green;
 background: #162E47;
 margin-left: 850px;
 margin-right: 20px;
-
-
 }
+
+/*
+Pagina Post do site
+*/
+
+.titlepost h1, h2, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titlepost h1{
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 40px;
+    margin-top: 20px;
+    color: #3D3D3D;
+}
+
+.conteudo h2{
+    font-size: 22px;
+    font-weight: 800;
+    color: #3D3D3D;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+.autor p{
+    font-weight: normal;
+    color: #3D3D3D;
+}
+
+.conteudo p{
+    color: #3F3F3F;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 10px 0 20px 0;
+}
+
+.footerpt{
+margin-top: 50px;
+}
+
+.footerpt a{
+    text-decoration: none;
+    color: #17324e;
+}
+
+a:hover{
+    color: #206494;
+}
+
+.footerpt p{
+    color: #3F3F3F;
+    font-size: 15px;
+    margin: 0px auto;
+}
+
