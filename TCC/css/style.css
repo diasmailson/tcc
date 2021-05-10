@@ -8,6 +8,7 @@ body,header{
 
 .header{
    background: #162E47;
+   margin-bottom: 70px;
 }
 
 .menu ul li {
@@ -82,13 +83,9 @@ body,header{
 */
 
 
-.sub-imagens{
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-}
-.sub-titulo{
-    display: inline-block;
+#sub-banner-card{
+    min-height: 120px;
+    margin: 10px;
 }
 
 
