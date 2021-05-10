@@ -8,7 +8,7 @@ body,header{
 
 .header{
    background: #162E47;
-   margin-bottom: 70px;
+ 
 }
 
 .menu ul li {
@@ -232,4 +232,9 @@ a:hover{
     font-size: 15px;
     margin: 0px auto;
 }
+
+/*
+    Estilizando paragrafos artigo
+
+*/
 
