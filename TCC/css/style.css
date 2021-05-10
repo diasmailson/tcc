@@ -112,12 +112,22 @@ body,header{
 */
 
 .formulario{
-    margin-top: 50px;
+    margin-top: 15px;
+    margin-left:400px;
+    
 }
 .fundo-preto-branco{
     background: black;
     color: blue;
 }
+
+.textotfaleconosco{
+    margin-top: 15px;
+    margin-left:230px;
+
+}
+
+
 /*
     Estilizando calculadora
 */
