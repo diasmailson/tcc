@@ -247,4 +247,47 @@ a:hover{
     Estilizando paragrafos artigo
 
 */
+/* 
 
+Estilizando página de entrevistas
+
+*/
+
+
+.tituloprincipal{
+    margin-top: 50px;
+
+}
+
+
+
+.entrevista1{
+    margin-top: 150px;
+    width: 100%;
+    height:100%;   
+}
+
+
+.entrevista2{
+    margin-top: 150px;
+    width: 100%;
+    height:100%;    
+}
+
+.entrevista3{
+    margin-top: 150px;
+    width: 100%;
+    height:100%;    
+}
+
+.entrevista4{
+    margin-top: 150px;
+    width: 100%;
+    height:100%;    
+}
+
+.entrevista5{
+    margin-top: 150px;
+    width: 100%;
+    height:100%;    
+}
