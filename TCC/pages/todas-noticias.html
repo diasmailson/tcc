@@ -1,106 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Conflitos financeiros</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-            <link rel="stylesheet" href="../css/style.css">
-        <!--Tipografia-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;700;800;900&display=swap"
-            rel="stylesheet">
-        <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-            crossorigin="anonymous">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todas as Notícias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Tipografia-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous">
+</head>
 
-    <body>
+<body>
 
-        <header class="header"><!--Inicio header-->
-            
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page"
-                                    href="../index.html">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="../pages/todas-noticias.html">TODAS AS NOTÍCIAS</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    DROPDOWN
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item " href="#">Action</a></li>
-                                    <li><a class="dropdown-item " href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item " href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="../pages/entrevistas.html">ENTREVISTAS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="../pages/fale-conosco.html">FALE CONOSCO</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                            <button class="btn btn-outline-success c" type="submit">Pesquisar</button>
-                        </form>
-                    </div>
+    <!--Inicio header-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./pages/todas-noticias.html">TODAS AS NOTÍCIAS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="true">
+                                MATERIAIS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item " href="./podcasts.html">Podcast</a></li>
+                                <li><a class="dropdown-item " href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item " href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../pages/entrevistas.html">ENTREVISTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../pages/fale-conosco.html">FALE CONOSCO</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-outline-success c" type="submit">Pesquisar</button>
+                    </form>
                 </div>
-            </nav>
-
-        </header><!--Fim header-->
+            </div>
+        </nav>
+    </header>
+    <!--Fim header-->
 
     <main>
-
-      <div class="box">
-        <div class="container">
-            <img src="../img/logo_pix.png" class="img-fluid" alt="">
-            <img src="" class="img-fluid" alt="">
-        </div>
-          <h5 class="card-title">Como usar o Pix</h5>
-          <p class="card-text" href="../post/como-funciona-pix.html">Aprendar como usar o Pix com a gente.</p>
-      </div>
-
-            <div class="box">
-                <div class="container">
-                    <img src="../img/banco_ditital.jpg" class="img-fluid" alt="">
-                    <img src="" class="img-fluid" alt="">
+        <div class="box">
+            <div class="container">
+                <div class="row g-0  position-relative">
+                    <div class="col-md-6 mb-md-0 p-md-4">
+                        <img src="../img/criptomoedas.jpg" class="w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-6 p-4 ps-md-0">
+                        <h5 class="mt-0 fw-bold">Cripitomoedas</h5>
+                        <p>Moedas Digitais, será o futuro? Conheça mais sobre o assunto.</p>
+                        <p class="card-text"><small class="text-muted">10 de Maio | 2021</small></p>
+                        <a href="../post/criptomoeadas.html" class="stretched-link" target="_blank">Leia mais -></a>  
+                    </div>
                 </div>
-              <a href="../post/banco-digitais.html">Saiba os Melhores Bancos Ditais.</a>
             </div>
-
+        </div>    
+        
             <div class="box">
                 <div class="container">
-                    <img src="../img/criptomoedas.jpg" class="img-fluid" alt="">
-                </div>    
-              <a href="../post/criptomoeadas.html">Venha conhecer a Criptomoeada.</a>
-              </div>
+                    <div class="row g-0  position-relative">
+                        <div class="col-md-6 mb-md-0 p-md-4">
+                            <img src="../img/banco_ditital.jpg" class="w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6 p-4 ps-md-0">
+                            <h5 class="mt-0 fw-bold">Bancos Digitais e seus benefícios</h5>
+                            <p>Venha entender o que é um banco digital e escolher o que mais combina contigo.</p>
+                            <p class="card-text"><small class="text-muted">10 de Maio | 2021</small></p>
+                            <a href="../post/banco-digitais.html" class="
+                                stretched-link" target="_blank">Leia mais -></a>  
+                        </div>
+                    </div>
+                </div>  
+            </div>      
 
               <div class="box">
-                <a href="../post/taxa-selic.html">
-                  <img src="" alt=""/> Em construção.</a>
-              </div>
-
+                <div class="container">
+                    <div class="row g-0  position-relative">
+                        <div class="col-md-6 mb-md-0 p-md-4">
+                            <img src="../img/logo_pix.png" class="w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6 p-4 ps-md-0">
+                            <h5 class="mt-0 fw-bold">Como usar o PIX </h5>
+                            <p>Aprende com a gente como usar o Pix e todos suas funções.</p>
+                            <p class="card-text"><small class="text-muted">10 de Maio | 2021</small></p>
+                            <a href="../post/como-funciona-pix.html" class="
+                                stretched-link" target="_blank">Leia mais -></a>  
+                        </div>
+                    </div>
+                </div>
 
         <!--Inicio Vlibras-->
         <div vw class="enabled">
