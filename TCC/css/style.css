@@ -1,4 +1,5 @@
-/*
+
+/* 
     Estilizando o header
 */
 
@@ -84,8 +85,9 @@ body,header{
 
 
 #sub-banner-card{
-    min-height: 120px;
+    min-height: 165px;
     margin: 10px;
+    
 }
 
 
@@ -132,7 +134,7 @@ body,header{
     Estilizando calculadora
 */
 .calculadora{
-    margin-top: 200px;
+    margin-top: 80px;
 }
 
 #mostrarResultado{
@@ -246,8 +248,13 @@ a:hover{
 /*
     Estilizando paragrafos artigo
 
-*/
-/* 
+
+
+
+
+
+
+/*
 
 Estilizando página de entrevistas
 
@@ -291,3 +298,21 @@ Estilizando página de entrevistas
     width: 100%;
     height:100%;    
 }
+
+
+/*
+Estilizando página de planilhas
+*/
+
+.faixa1{
+background: #3CB371;
+width: 100%;
+height: 60px;
+
+}
+
+.tituloplanilha{
+  
+   background: #3CB371; 
+}
+
