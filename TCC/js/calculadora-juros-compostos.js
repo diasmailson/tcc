@@ -46,7 +46,7 @@ function calcular(evento){
     }
 
     let mostrarResultado = document.querySelector("#mostrarResultado");
-    mostrarResultado.textContent = "R$ " + acumulado;
+    mostrarResultado.textContent = "R$ " + acumulado.toFixed(2);
     
  
     
